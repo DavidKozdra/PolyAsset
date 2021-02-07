@@ -1,0 +1,167 @@
+:root {
+        --Custom-color: #198754;
+        --Main-bg-color: #EDEDED;
+        --Secoundary-bg-color: #9824D1;
+        --Main-txt-color: black;
+        --Link-txt-color: blue;
+
+        
+    }
+* {
+   color::white;
+   box-sizing: border-box;
+ }
+
+/* Style the search field */
+form.example input[type=text] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 60%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1{
+	text-align: center;
+	font-size:40px;
+	font-color:var(--Main-txt-color);
+}
+.nav-item{
+	font-size:50px;
+	margin:30px;
+}     
+    nav {
+	background: #c634e3;
+        position: fixed;
+    }
+    p{
+        background-color: var(--Main-txt-color);
+    }
+    a{
+        background-color: var(--Link-txt-color);
+    }
+
+    /*Main div clas
+ *     /*Main div class*/
+    .container {
+        padding: 120px;
+        width: 100%;
+        max-width: 2000px;
+        background-color:var(--Main-bg-color);
+        margin-top: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .frame{
+        border-style:groove ;
+        border-color: #ddd;
+        border: 20px;
+    }
+
+    /* pictures  circle items */
+    .face {
+        width: 60px;
+        height: 60px;
+        border: 1px solid #ddd;
+        border-radius: 1px;
+        padding: 2px;
+        border-radius: 85%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+    /*Display objects images or features*/
+    .poster {
+        width: 400px;
+        height: 400px;
+        display:block;
+	margin-left: 0;
+    }
+
+    .RectItem {
+        background-color:var(--Secounday-bg-color);
+        width: 100px;
+        height: 100px;
+        padding: 2px;
+        border: groove;
+        font-size: 20px;
+        border-color: #2b2b2b;
+        color: aliceblue;
+    }
+
+    /* only for bootstrap extention*/
+    .hamburgermenu {
+        width: 100px;
+        height: 70px;
+        margin-left: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .Row {
+        background-color: var(--Secounday-bg-color);
+        padding: 2px;
+        font-size: 20px;
+        color: aliceblue;
+    }
+
+img.nav-brand{
+width:100px;
+height:100px;
+}
+
+
+
+#link{
+ margin-left: 700px;
+ background-color:lightblue;
+}
+
+.position-sticky{
+  width: 40%;
+  height:60%;
+  bottom: 10px;
+  left: 100%;
+  background-color:#7851a9 ;
+  padding:40px;
+  position: sticky;
+}
+
+.dontshow {
+ width: 10px;
+ height: 10px;
+ visibility:visible;
+}
+
+.dontshow > *{
+	visibility:hidden;
+}
+
