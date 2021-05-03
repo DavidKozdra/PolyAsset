@@ -11,6 +11,15 @@ http://ember.hpc.lab/~dkozdra8338/PolyAsset/
 
 ###  Product Presentation
 
-![Home Page](ImagesForGIt/Home.png)
+![image](https://user-images.githubusercontent.com/45106564/116936384-c3041180-ac35-11eb-81ea-986570895305.png)
 
 * The home page loads with a nav bar upload menu and every item from the database 
+
+# Upload Form 
+
+![image](https://user-images.githubusercontent.com/45106564/116936406-cb5c4c80-ac35-11eb-99c6-b41afe1abf41.png)
+
+
+#Project info 
+
+![image](https://user-images.githubusercontent.com/45106564/116936450-dd3def80-ac35-11eb-95e4-8eced2b4a924.png)
